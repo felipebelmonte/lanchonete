@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Lanchonete</title>
+    <link href="./css/bootstrap.css" rel="stylesheet"/>
+    <link href="./css/style.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <h2>Escolha um Lanche</h2>
+	<div class="container">
+		<div class="row">	
+			<div class="col-xs-6">
+				<div class="divForm">
+					
+				</div>
+			</div>
+			<div class="col-xs-6" id="divIgredientesItens" style="display: none">
+				<div class="divIngrediente listLanches">
+				</div>
+				<div  style="width: 105px;margin: auto;">
+					<a onclick="adicionar()" class="btn btn-primary">ADICIONAR</a>
+				</div>
+				<div id="valorLanche"></div>
+				
+			</div>
+		</div>       
+	</div>
+	
+	<script src="./js/jquery-1.11.2.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/numeral.min.js"></script>
+</body>
+</html>
