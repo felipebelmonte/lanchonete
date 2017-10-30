@@ -1,5 +1,4 @@
-Como executar
+Running
 
-baixar o projeto.
-. Abrir a classe Application no pacote br.com.finchsolucoes.lanchonete;
-. Servidor irá responder no http://localhost:8080/
+Run mvn test to run the tests
+Run mvn spring-boot:run to run the app
